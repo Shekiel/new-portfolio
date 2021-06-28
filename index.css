@@ -1,0 +1,93 @@
+body {
+  background-color: #e5f4fd;
+
+  font-family: sans-serif;
+}
+.navbar {
+  width: 100%;
+  background-color: #507fc7;
+  padding: 15px 0px 15px 0px;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  justify-items: flex-start;
+  padding: 5px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.nav-img {
+  width: 50px;
+  height: 30px;
+}
+
+.text {
+  text-align: center;
+  font-family: 'bookman';
+}
+
+h1 {
+  color: #507fc7;
+}
+h2 {
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+}
+.big-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-img {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-background {
+  padding: 20px;
+}
+
+.column {
+  display: list-item;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 20px;
+}
+
+.contact-arrow {
+  width: 200px;
+  height: 10%;
+}
+.contact-arrow-container {
+  display: flex;
+  justify-content: center;
+}
+.gmail-img {
+  width: 20%;
+}
+
+p {
+  padding: 7%;
+  text-align: left;
+}
+.content {
+  background-color: #507fc7;
+  padding: 10px;
+  border-radius: 25px;
+}
+/* .link-pos {
+  display: flex;
+  flex-direction: row;
+} */
