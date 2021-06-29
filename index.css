@@ -27,6 +27,25 @@ body {
   height: 30px;
 }
 
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #5071c7;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #5071c7;
+}
+
 .text {
   text-align: center;
   font-family: 'bookman';
@@ -47,23 +66,8 @@ h2 {
   justify-content: center;
 }
 
-.contact-img {
-  width: 20%;
-  justify-content: center;
-  align-items: center;
-}
-
 .project-background {
   padding: 20px;
-}
-
-.column {
-  display: list-item;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  bottom: 20px;
 }
 
 .contact-arrow {
@@ -74,10 +78,13 @@ h2 {
   display: flex;
   justify-content: center;
 }
-.gmail-img {
-  width: 20%;
+.contact-img {
+  width: 40%;
+  /* padding: 100px; */
 }
-
+.github-img {
+  width: 50px;
+}
 p {
   padding: 7%;
   text-align: left;
@@ -87,7 +94,63 @@ p {
   padding: 10px;
   border-radius: 25px;
 }
-/* .link-pos {
+.column {
+  background-color: red;
+}
+.middle {
   display: flex;
-  flex-direction: row;
-} */
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 5px 0px 5px 0px;
+    list-style: none;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: right;
+    align-self: center;
+
+    padding: 5px;
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 0px;
+  }
+  .navbar a {
+    font-size: 25px;
+  }
+  .nav-img {
+    width: 70px;
+    height: 40px;
+  }
+  .github-img {
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .navbar a {
+    font-size: 25px;
+  }
+  .nav-img {
+    width: 70px;
+    height: 40px;
+  }
+  .github-img {
+    width: 170px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .home-logo {
+    width: 380px;
+  }
+}
