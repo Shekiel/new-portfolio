@@ -57,6 +57,13 @@ h1 {
 h2 {
   text-align: center;
 }
+h3 {
+  text-align: center;
+}
+
+.project-cat {
+  text-align: center !important;
+}
 
 .quote {
   text-align: center;
@@ -85,6 +92,7 @@ h2 {
 .github-img {
   width: 50px;
 }
+
 p {
   padding: 7%;
   text-align: left;
@@ -99,6 +107,10 @@ p {
 .middle {
   display: flex;
   justify-content: center;
+}
+.img-style {
+  width: 100%;
+  border-radius: 20px;
 }
 @media only screen and (min-width: 768px) {
   .navbar {
@@ -127,6 +139,33 @@ p {
   .github-img {
     width: 120px;
   }
+  .img-style {
+    width: 100%;
+    align-content: center;
+    border-radius: 20px;
+  }
+  .content {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  .project-background {
+    padding: 20px;
+    width: 300px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-me-p {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 1080px) {
@@ -151,5 +190,13 @@ p {
   }
   .home-logo {
     width: 380px;
+  }
+  .about-me-p {
+    padding: 60px;
+  }
+  .content {
+    background-color: #507fc7;
+    padding: 10px;
+    border-radius: 25px;
   }
 }
